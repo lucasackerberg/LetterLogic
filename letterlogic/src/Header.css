@@ -1,0 +1,36 @@
+.header-wrapper{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.what-is-this{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+.what-is-this:hover{
+    border: 2px solid #242424;
+    background-color: white;
+    cursor: pointer;
+}
+
+.what-is-this:hover > svg{
+    color: #242424;
+}
+
+.what-is-this svg{
+    height: 50px;
+}
+
+.remove-margin{
+    margin:0;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
